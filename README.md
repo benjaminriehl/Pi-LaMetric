@@ -4,3 +4,4 @@ The script is setup to run on your Pi-Hole compatible system in the /home/pi dir
 You will need to build your own LaMetric app at https://developer.lametric.com
   -You will have to make it a indicator app
   
+
