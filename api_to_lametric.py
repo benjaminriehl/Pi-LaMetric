@@ -7,5 +7,6 @@ data = json.load(urllib2.urlopen(url))
 parsed_json = data
 
 ads = parsed_json['ads_blocked_today']
+user = parsed_json['unique_clients']
 
-system ('bash /home/pi/lametricupload.sh %(ads)s' % locals()) #Sends the amount of blocked ads to the bash script
+system ('bash /home/pi/lametricupload.sh %(ads)s  %(user)s' % locals())
